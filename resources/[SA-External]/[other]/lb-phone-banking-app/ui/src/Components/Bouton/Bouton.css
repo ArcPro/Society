@@ -1,0 +1,23 @@
+.button {
+	display: inline-flex; /* Permet d'aligner l'icône et le texte côte à côte */
+	gap: 0.5rem; /* Espace entre l'icône et le texte */
+	align-items: center; /* Centre verticalement */
+	justify-content: center; /* Centre horizontalement */
+	background-color: #f0ede6;
+	border: none;
+	padding: .625rem 1.3rem; /* Augmenté pour accommoder le texte */
+	border-radius: 0.3rem; /* Moins arrondi pour un bouton avec texte */
+	cursor: pointer;
+	transition: transform 0.3s ease, background-color 0.3s ease;
+	color: black; /* Couleur du texte */
+	font-size: 1rem; /* Taille du texte */
+  }
+  
+  .button:hover {
+	transform: scale(1.05);
+	background-color: #f0ede6;
+  }
+  
+  .button i {
+	margin-right: 0.5rem; /* Espace entre l'icône et le texte */
+  }

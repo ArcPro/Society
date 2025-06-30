@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+
+.v-popper--theme-tooltip .v-popper__inner {
+  @apply text-xs;
+}
+
+@tailwind utilities;
+
+*:focus {
+    outline: none;
+}
+
+@layer utilities {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    @apply appearance-none;
+  }
+
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}

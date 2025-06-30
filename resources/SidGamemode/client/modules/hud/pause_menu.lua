@@ -1,0 +1,17 @@
+_G["AddTextEntry"] = function(k, v)
+    Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), k, v)
+end
+
+Citizen.CreateThread(function()
+    AddTextEntry('FE_THDR_GTAO', "~b~San Andreas Stories ~s~")
+    AddTextEntry('PM_SCR_MAP', "Map")
+    AddTextEntry('PM_SCR_GAM', "Quitter")
+    AddTextEntry('PM_PANE_LEAVE', "Se déconnecter")
+    AddTextEntry('PM_PANE_QUIT', "Fermer FiveM")
+    AddTextEntry('PM_SCR_INF', "Logs")
+    AddTextEntry('PM_SCR_STA', "Statistiques")
+    AddTextEntry('PM_SCR_SET', "Paramètres")
+    AddTextEntry('PM_SCR_GAL', "Galerie")
+    AddTextEntry('PM_SCR_RPL', "∑ Editor")
+    AddTextEntry('PM_PANE_CFX', "San Andreas Stories")
+end)

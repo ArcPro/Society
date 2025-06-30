@@ -1,0 +1,104 @@
+Version 1 11
+{
+	IsStream False
+	DescriptorsInOrder False
+	Entries
+	{
+		WaveTrack 0x037A0176
+		{
+			Compression PCM
+			Headroom -200
+			LoopPoint 0
+			LoopBegin 0
+			LoopEnd 0
+			PlayBegin 0
+			PlayEnd 0
+			Wave oiss_ssa_vehaud_lspd_new\0x037A0176.wav
+			AnimClip null
+			Events null
+			UNKNOWN_23097A2B null
+			UNKNOWN_E787895A null
+			UNKNOWN_252C20D9 null
+		}
+		WaveTrack 0x0396DC61
+		{
+			Compression PCM
+			Headroom -200
+			LoopPoint 0
+			LoopBegin 0
+			LoopEnd 0
+			PlayBegin 0
+			PlayEnd 0
+			Wave oiss_ssa_vehaud_lspd_new\0x0396DC61.wav
+			AnimClip null
+			Events null
+			UNKNOWN_23097A2B null
+			UNKNOWN_E787895A null
+			UNKNOWN_252C20D9 null
+		}
+		WaveTrack 0x0B747929
+		{
+			Compression PCM
+			Headroom -200
+			LoopPoint 0
+			LoopBegin 0
+			LoopEnd 0
+			PlayBegin 0
+			PlayEnd 0
+			Wave oiss_ssa_vehaud_lspd_new\0x0B747929.wav
+			AnimClip null
+			Events null
+			UNKNOWN_23097A2B null
+			UNKNOWN_E787895A null
+			UNKNOWN_252C20D9 null
+		}
+		WaveTrack 0x11E3E0E0
+		{
+			Compression PCM
+			Headroom -200
+			LoopPoint 0
+			LoopBegin 0
+			LoopEnd 0
+			PlayBegin 0
+			PlayEnd 0
+			Wave oiss_ssa_vehaud_lspd_new\0x11E3E0E0.wav
+			AnimClip null
+			Events null
+			UNKNOWN_23097A2B null
+			UNKNOWN_E787895A null
+			UNKNOWN_252C20D9 null
+		}
+		WaveTrack 0x1A547640
+		{
+			Compression PCM
+			Headroom -200
+			LoopPoint 0
+			LoopBegin 0
+			LoopEnd 0
+			PlayBegin 0
+			PlayEnd 0
+			Wave oiss_ssa_vehaud_lspd_new\0x1A547640.wav
+			AnimClip null
+			Events null
+			UNKNOWN_23097A2B null
+			UNKNOWN_E787895A null
+			UNKNOWN_252C20D9 null
+		}
+		WaveTrack 0x1DA819E2
+		{
+			Compression PCM
+			Headroom -200
+			LoopPoint 0
+			LoopBegin 0
+			LoopEnd 0
+			PlayBegin 0
+			PlayEnd 0
+			Wave oiss_ssa_vehaud_lspd_new\0x1DA819E2.wav
+			AnimClip null
+			Events null
+			UNKNOWN_23097A2B null
+			UNKNOWN_E787895A null
+			UNKNOWN_252C20D9 null
+		}
+	}
+}

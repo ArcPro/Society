@@ -1,0 +1,64 @@
+
+.transactions-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 999;
+	transition-delay: 1s;
+    transition: display 1s ease-in-out 1s; /* Combine delay et transition */
+}
+
+.transactions-container {
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: 1.25rem 1.25rem 0 0;
+    box-shadow: 0 -2px .625rem rgba(0, 0, 0, 0.5);
+    width: 95%; /* Conservez pour la compatibilité */
+    height: 80%;
+    overflow-y: auto;
+    transform: translateY(0%);
+    position: fixed; /* Déjà fixé, mais important de rappeler */
+    bottom: 0; /* Assure que le conteneur s'aligne au bas */
+	
+	transition: transform 1s ease-in-out;
+	z-index: 1000;
+	align-self: center;
+}
+
+.transactions-container.hidden {
+	transform: translateY(100%);
+}
+
+.transactions-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .625rem;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+    gap: 1rem; /* Espace entre les éléments */
+  }
+  
+  .transactions-header input[type="text"] {
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 18,75rem; /* Ajustez selon la largeur souhaitée */
+  }
+  
+  /* Style pour l'icône de fermeture, ajustez selon vos besoins */
+  .transactions-header svg {
+    cursor: pointer;
+    font-size: 24px; /* Ajustez la taille de l'icône */
+  }
+
+  .transactions-header h3 {
+    margin: 0;
+  }

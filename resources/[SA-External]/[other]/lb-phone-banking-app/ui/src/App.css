@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+    display: none;
+  }
+
+.app {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding-top: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    filter: none;
+    background-color: #f6f4f0;
+}
+
+/* Supprimez ou commentez le style .app-header
+.app-header {
+    ...
+}
+*/
+
+.container {
+    display: flex;
+    height: 14rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; /* Ajoute de l'espace entre les éléments */
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.bank-logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Centre le logo horizontalement */
+    align-items: center;
+    margin: 0.625rem 0; /* Augmentez cette valeur si nécessaire pour plus d'espace */
+}
+
+/* Style pour le logo lui-même */
+.bank-logo, .bank-customer-logo {
+    width: 3rem; /* Taille appropriée pour l'icône du client */
+    height: 3rem; /* Taille appropriée pour l'icône du client */
+    object-fit: contain; /* Assure que l'image s'adapte bien sans être déformée */
+    margin-left: 1rem; /* Alignez l'icône du client à droite */
+    margin-right: 1rem; /* Espace entre l'icône du client et le bord de l'écran */
+}
+
+.bank-logo > img, .bank-customer-logo > img {
+    width: 100%; /* Assure que l'image du client s'adapte bien sans être déformée */
+    height: 100%; /* Assure que l'image du client s'adapte bien sans être déformée */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.3rem; /* Espacement entre les boutons */
+  }
+
+.app-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-wrapper > * {
+    padding-top: 1.25rem !important; /* Augmente le padding en haut pour compenser la marge négative */
+    padding-bottom: 1.25rem !important; /* Augmente le padding en bas pour compenser la marge négative */
+    margin-top: -0.625rem; /* Marge négative pour laisser apparaître le fond de la section précédente */
+    border-top-left-radius: 10px; /* Arrondit le coin supérieur gauche */
+    border-top-right-radius: 10px; /* Arrondit le coin supérieur droit */
+    width: 100%;
+}
+
+.app-wrapper > *:nth-child(odd) {
+    background-color: #f6f4f0; /* Couleur de fond plus claire pour les éléments impairs */
+}
+
+.app-wrapper > *:nth-child(even) {
+    background-color: #ffffff; /* Couleur de fond plus foncée pour les éléments pairs */
+}
+
+.balance-container {
+    padding: 0.625rem;
+    width: 100%;
+    color: #333; /* Couleur de texte neutre pour une bonne lisibilité */
+    display: flex;
+    flex-direction: column; /* Changez en colonne pour aligner verticalement */
+    gap: 0.3rem; /* Ajoute de l'espace entre les éléments */
+    text-align: center;
+    align-items: center;
+}
+
+.balance-title {
+    font-size: 1rem; /* Augmente la taille pour plus de visibilité */
+    color: #5a5a5a;
+
+}
+
+.balance-value {
+    font-size: 3rem; /* Rend le solde plus grand et plus visible */
+    font-weight: normal;
+    color: #333;
+    white-space: nowrap; /* Assure que la valeur reste sur une seule ligne */
+    display: flex;
+    align-items: flex-start; /* Aligne le texte verticalement */
+    gap: 1rem; /* Ajoute de l'espace entre les éléments */
+    letter-spacing: 0.1rem;
+    line-height: 1;
+}
+
+.balance-value span {
+    font-size: .8rem; /* Taille de police plus petite pour les sous-titres */
+    color: white;
+    padding: 0.3rem; /* Ajoute de l'espace autour du texte */
+    border-radius: 0.5rem; /* Arrondit les coins pour un look plus doux */
+    font-weight: lighter; /* Retire le gras pour les sous-titres */
+    letter-spacing: normal;
+    margin-top: 0.1rem; /* Ajoute un peu d'espace en haut */
+}
+
+.balance-value > .positive {
+    background-color: #2ecc71; /* Couleur verte pour les soldes positifs */
+}
+
+.balance-value > .negative {
+    background-color: #e74c3c; /* Couleur rouge pour les soldes négatifs */
+}
+
+
+.dev-wrapper {
+    position: absolute;
+
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    margin: 0 auto;
+    font-size: 1rem;
+    width: 29rem;
+    height: 58.5rem;
+    background-color: #ffcfbb;
+}
